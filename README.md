@@ -1,15 +1,23 @@
+#Linux Server Configuration
 
-===============================================================================
-REQUIRED FUNCTIONALITY
-===============================================================================
+This is the fifth project in my pursuit of the Full Stack Web Developer Nanodegree from Udacity. Following is Udacity's description for this project:
+
+You will take a baseline installation of a Linux distribution on a virtual machine and prepare it to host your web applications, to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers. A deep understanding of exactly what your web applications are doing, how they are hosted, and the interactions between multiple systems are what define you as a Full Stack Web Developer. In this project, you’ll be responsible for turning a brand-new, bare bones, Linux server into the secure and efficient web application host your applications need.
+
+
+##REQUIRED FUNCTIONALITY
 - Configured and secured Amazon EC2 virtual server running Ubuntu
 - Performed necessary config to host my ItemCatalog application (Udacity Full Stack Project #3) using Apache and PostgreSQL
 
+####Access Info
+```
 Server IP: 52.34.202.209
 SSH Port: 2200
-Web URL #1: [http://52.34.202.209](http://52.34.202.209)
-Web URL #2: [http://ec2-52-34-202-209.us-west-2.compute.amazonaws.com](http://ec2-52-34-202-209.us-west-2.compute.amazonaws.com)
-
+Web URL #1: http://52.34.202.209
+Web URL #2: http://ec2-52-34-202-209.us-west-2.compute.amazonaws.com
+```
+*A private key is required to access SSH and this information is only being shared with
+the Udacity project reviewer.*
 
 ===============================================================================
 ADDITIONAL FUNCTIONALITY
