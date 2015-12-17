@@ -19,34 +19,39 @@ Web URL #2: http://ec2-52-34-202-209.us-west-2.compute.amazonaws.com
 *A private key is required to access SSH and this information is only being shared with
 the Udacity project reviewer.*
 
-===============================================================================
-ADDITIONAL FUNCTIONALITY
-===============================================================================
-- Enabled UFW limit rule so repeated SSH connection attempts will be blocked
-- TEST:
-    1. Initiate SSH connection
-    2. Logoff
-    3. Repeat steps 1 and 2 as rapidly as possible, until the server starts to
-        refuse connections. After roughly 30 seconds, you should be able to
-        reconnect.
 
-- Enabled automatic weekly updates, with logging, using Cron and Apt-Get
-- TEST:
-    1. `sudo run-parts -v /etc/cron.weekly`
-    2. `ls /var/log/autoupdate`
-    3. `cat /var/log/autoupdate/########-####.log` (#'s are placeholders)
+##ADDITIONAL FUNCTIONALITY
 
-- Enabled application monitoring via Monit
-- TEST:
-    1. 'sudo monit status' to verify services are running
-    2. 'sudo service postgresql stop'
-    3. 'sudo service apache2 stop'
-    4. 'sudo service ssh stop'
-    5. Log out of SSH session
-    6. Try logging in, but observe that it fails because SSH service stopped
-    7. Wait two minutes
-    8. Log back in via SSH, since SSH service should be restarted by now
-    9. 'sudo monit status' to verify all services are running again
+**Enabled UFW limit rule so repeated SSH connection attempts will be blocked**
+
+Testing & Verification Instructions:
+
+1. Initiate SSH connection
+2. Logoff
+3. Repeat steps 1 and 2 as rapidly as possible, until the server starts to refuse connections. After roughly 30 seconds, you should be able to reconnect.
+
+**Enabled automatic weekly updates, with logging, using Cron and Apt-Get**
+
+Testing & Verification Instructions:
+
+1. `sudo run-parts -v /etc/cron.weekly`
+2. `ls /var/log/autoupdate`
+3. `cat /var/log/autoupdate/########-####.log` (#'s are placeholders)
+
+**Enabled application monitoring via Monit**
+
+Testing & Verification Instructions:
+
+1. 'sudo monit status' to verify services are running
+2. 'sudo service postgresql stop'
+3. 'sudo service apache2 stop'
+4. 'sudo service ssh stop'
+5. Log out of SSH session
+6. Try logging in, but observe that it fails because SSH service stopped
+7. Wait two minutes
+8. Log back in via SSH, since SSH service should be restarted by now
+9. 'sudo monit status' to verify all services are running again
+
 ===============================================================================
 
 
