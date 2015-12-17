@@ -20,7 +20,7 @@ If you have a Google account, you can log into the application using the Google 
 ```
 
 ##SSH ACCESS INSTRUCTIONS
-To access the server via SSH, use the information below.
+To access the server via SSH, use the information below. This information is only temporary, however, since the virtual machine only needs to be provisioned long enough for this project to be graded by Udacity.
 ```
 Server IP: 52.34.202.209
 SSH Port: 2200
