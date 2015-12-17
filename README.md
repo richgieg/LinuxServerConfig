@@ -7,18 +7,29 @@ You will take a baseline installation of a Linux distribution on a virtual machi
 
 ```
 
-##ACCESS INSTRUCTIONS
+##WEB ACCESS INSTRUCTIONS
 To access the hosted web application, visit one of the two web URLs listed in the section below. The links are only temporary, however, since the virtual machine only needs to be provisioned long enough for this project to be graded by Udacity.
 ```
-Server IP: 52.34.202.209
-SSH Port: 2200
 Web URL #1: http://52.34.202.209
 Web URL #2: http://ec2-52-34-202-209.us-west-2.compute.amazonaws.com
 ```
-*A private key is required to access SSH and this information is only being shared with
-the Udacity project reviewer.*
 
 If you have a Google account, you can log into the application using the Google Sign-In button in the upper-right of the page. However, you will not have write-access to the site until I approve your account in my custom user-management console. Once you've been approved, you can create new items in the various categories of the catalog.
+```
+
+```
+
+##SSH ACCESS INSTRUCTIONS
+To access the server via SSH, use the information below.
+```
+Server IP: 52.34.202.209
+SSH Port: 2200
+
+Example: ssh -i ~/.ssh/udacity_key.rsa -p 2200 grader@52.34.202.209
+```
+
+*A private key (`udacity_key.rsa`) is required to access SSH and this information is only being shared with
+the Udacity project reviewer.*
 ```
 
 ```
