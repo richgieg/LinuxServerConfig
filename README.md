@@ -3,17 +3,12 @@
 This is the fifth and final project in my pursuit of the Full Stack Web Developer Nanodegree from Udacity. Following is Udacity's description for this project:
 
 You will take a baseline installation of a Linux distribution on a virtual machine and prepare it to host your web applications, to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers. A deep understanding of exactly what your web applications are doing, how they are hosted, and the interactions between multiple systems are what define you as a Full Stack Web Developer. In this project, you’ll be responsible for turning a brand-new, bare bones, Linux server into the secure and efficient web application host your applications need.
-
-To access the hosted web application, visit one of the two web URLs listed in the **Access Info** section below. The links are only temporary, however, since the virtual machine only needs to be provisioned to me long enough for this project to be graded by Udacity.
 ```
 
 ```
 
-##REQUIRED FUNCTIONALITY
-- Configured and secured Amazon EC2 virtual server running Ubuntu
-- Performed necessary config to host my ItemCatalog application (Udacity Full Stack Project #3) using Apache and PostgreSQL
-
-####Access Info
+##ACCESS INSTRUCTIONS
+To access the hosted web application, visit one of the two web URLs listed in the section below. The links are only temporary, however, since the virtual machine only needs to be provisioned long enough for this project to be graded by Udacity.
 ```
 Server IP: 52.34.202.209
 SSH Port: 2200
@@ -22,6 +17,15 @@ Web URL #2: http://ec2-52-34-202-209.us-west-2.compute.amazonaws.com
 ```
 *A private key is required to access SSH and this information is only being shared with
 the Udacity project reviewer.*
+
+If you have a Google account, you can log into the application using the Google Sign-In button in the upper-right of the page. However, you will not have write-access to the site until I approve your account in my custom user-management console. Once you've been approved, you can create new items in the various categories of the catalog.
+```
+
+```
+
+##REQUIRED FUNCTIONALITY
+- Configured and secured Amazon EC2 virtual server running Ubuntu
+- Performed necessary config to host my [ItemCatalog application](http://github.com/richgieg/ItemCatalog) (Udacity Full Stack Project #3) using Apache and PostgreSQL
 ```
 
 ```
