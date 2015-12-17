@@ -8,11 +8,11 @@ You will take a baseline installation of a Linux distribution on a virtual machi
 ```
 
 ##WEB ACCESS INSTRUCTIONS
-To access the hosted web application, visit one of the two web URLs listed in the section below. The links are only temporary, however, since the virtual machine only needs to be provisioned long enough for this project to be graded by Udacity.
-```
-Web URL #1: http://52.34.202.209
-Web URL #2: http://ec2-52-34-202-209.us-west-2.compute.amazonaws.com
-```
+To access the hosted web application, visit one of the two web URLs listed below. The links are only temporary, however, since the virtual machine only needs to be provisioned long enough for this project to be graded by Udacity.
+
+- http://52.34.202.209
+- http://ec2-52-34-202-209.us-west-2.compute.amazonaws.com
+
 
 If you have a Google account, you can log into the application using the Google Sign-In button in the upper-right of the page. However, you will not have write-access to the site until I approve your account in my custom user-management console. Once you've been approved, you can create new items in the various categories of the catalog.
 ```
